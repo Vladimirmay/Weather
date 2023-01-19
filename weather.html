@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <form action="#">
+      <input class="input" type="text" placeholder="Aktobe" />
+      <div class="search">
+        <a
+          ><img
+            src="../img/svg/search_icon.svg"
+            alt="Поиск"
+            class="search-icon"
+        /></a>
+      </div>
+    </form>
+    <div class="weather">
+      <div class="weather_temperature_main">
+        <div class="weather_temperature">
+          <div class="tabs-content">
+            <ul class="ul">
+              <li id="now-page">
+                <div class="temperature">
+                  <h2>12 &#176;</h2>
+                </div>
+                <div class="cloud_one">
+                  <img src="../img/svg/cloud_icon.svg" alt="Облако" class="cloud" />
+                </div>
+                <div class="month">
+                  <button class="heart" type="button">
+                    <img
+                      src="../img/svg/like_icon.svg"
+                      alt="Сердце"
+                      class="heart_tab"
+                    />
+                  </button>
+                  <p>Labinsk</p>
+                </div>
+              </li>
+              <li id="details-page">
+                <h3 class="city">Labinsk</h3>
+                <div class="weather-info">
+                  <p class="info">Temperature: 14 &#176;</p>
+                  <p class="info">Feels like: 10 &#176;</p>
+                  <p class="info">Weather: Clouds</p>
+                  <p class="info">Sunrise: 03:21</p>
+                  <p class="info">Sunset: 18:54</p>
+                </div>
+              </li>
+              <li id="forecast-page">
+                <h3 class="city_forecast">Labinsk</h3>
+                <div class="info_forecast_weather">
+                  <div class="info_forecast">
+                    <div class="date_and_time">
+                      <p>17 May</p>
+                      <p>12:00</p>
+                    </div>
+                    <div class="main_details_about_weather">
+                      <div class="feels_like_and_temperature">
+                        <p>Temperature: <span>13</span>&#176;</p>
+                        <p>Feels like: <span>10</span>&#176;</p>
+                      </div>
+                      <div class="precipitation">
+                        <p>Rain</p>
+                        <img
+                          class="rain"
+                          src="../img/svg/icons8-rain-96 1.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="info_forecast">
+                    <div class="date_and_time">
+                      <p>17 May</p>
+                      <p>15:00</p>
+                    </div>
+                    <div class="main_details_about_weather">
+                      <div class="feels_like_and_temperature">
+                        <p>Temperature: <span>14</span>&#176;</p>
+                        <p>Feels like: <span>11</span>&#176;</p>
+                      </div>
+                      <div class="precipitation">
+                        <p>Rain</p>
+                        <img
+                          class="rain"
+                          src="../img/svg/icons8-rain-96 1.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="info_forecast">
+                    <div class="date_and_time">
+                      <p>17 May</p>
+                      <p>18:00</p>
+                    </div>
+                    <div class="main_details_about_weather">
+                      <div class="feels_like_and_temperature">
+                        <p>Temperature: <span>10</span>&#176;</p>
+                        <p>Feels like: <span>6</span>&#176;</p>
+                      </div>
+                      <div class="precipitation">
+                        <p>Rain</p>
+                        <img
+                          class="rain"
+                          src="../img/svg/icons8-rain-96 1.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="info_forecast">
+                    <div class="date_and_time">
+                      <p>17 May</p>
+                      <p>21:00</p>
+                    </div>
+                    <div class="main_details_about_weather">
+                      <div class="feels_like_and_temperature">
+                        <p>Temperature: <span>5</span>&#176;</p>
+                        <p>Feels like: <span>1</span>&#176;</p>
+                      </div>
+                      <div class="precipitation">
+                        <p>Rain</p>
+                        <img
+                          class="rain"
+                          src="../img/svg/icons8-rain-96 1.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="button_weather">
+            <button class="button">
+              <a href="#now-page" class="href">Now</a>
+            </button>
+            <button class="button">
+              <a href="#details-page" class="href">Details</a>
+            </button>
+            <button class="button">
+              <a href="#forecast-page" class="href">Forecast</a>
+            </button>
+          </div>
+        </div>
+        <div class="added_location">
+          <p>Added Location:</p>
+          <div class="city_list">
+            <ul>
+              <li class="city_name">Amur</li>
+              <li class="city_name">Samara</li>
+              <li class="city_name">Bali</li>
+              <li class="city_name">Dane</li>
+              <li class="city_name">Kilo</li>
+              <li class="city_name">Nur-Sultan</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

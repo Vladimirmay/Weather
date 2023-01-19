@@ -1,0 +1,264 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.weather {
+  border: 1px solid black;
+  box-sizing: border-box;
+  width: 600px;
+  height: 435px;
+  display: flex;
+  flex-wrap: wrap;
+  border-left: 0;
+  border-top: 0;
+}
+
+form {
+  border: 1px solid black;
+  box-sizing: border-box;
+  max-width: 600px;
+  display: flex;
+  align-items: flex-end;
+}
+.added_location {
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 1px 0 50px 18px;
+  width: 300px;
+  height: 50px;
+  border-top: none;
+  border-left: 0;
+  border-right: 0;
+}
+
+p {
+  width: 192px;
+  height: 28px;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.button_weather {
+  border-top: 1px solid black;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.weather_temperature {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 435px;
+  width: 299px;
+  border-top: 0;
+}
+ul {
+  list-style-type: none;
+}
+input {
+  border: none;
+  height: 45px;
+  padding: 11px 0 13px 16px;
+  width: 550px;
+}
+
+.text_addloc {
+  width: 302px;
+  display: flex;
+  align-self: baseline;
+  height: 100%;
+}
+
+.weather_temperature_main {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.city_list {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.city_name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 14px;
+}
+.button {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 12px 0;
+  flex: 1 1 auto;
+  background-color: #fff;
+  border: 0px;
+  border-right: 1px solid #000;
+  cursor: pointer;
+}
+
+.buttonss:active {
+  background-color: #000;
+  color: #fff;
+}
+.month {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: 100%;
+  margin-top: 74px;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+.temperature {
+  width: 150px;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 45px;
+  display: flex;
+  margin-left: 10px;
+}
+h2 {
+  margin-top: 1px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 82px;
+}
+h3 {
+  font-weight: normal;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 3px;
+}
+
+.cloud {
+  width: 78px;
+  height: 70px;
+}
+
+.cloud_one {
+  width: 78px;
+  margin-left: 110px;
+}
+
+.heart {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  height: min-content;
+  width: min-content;
+  display: flex;
+  padding-right: 5px;
+}
+
+.heart_tab {
+  width: 22px;
+  height: 22px;
+}
+.heart_tab:active {
+  background-color: #000;
+  color: #fff;
+}
+.ul {
+  padding-left: 0px;
+}
+.href {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.tabs-content {
+  height: 355px;
+  width: 298.5px;
+  overflow: hidden;
+}
+li {
+  list-style-type: none;
+}
+.city {
+  font-size: 24px;
+  padding-left: 40px;
+}
+.city_forecast {
+  font-size: 24px;
+  padding-left: 12px;
+  padding-top: 20px;
+  margin-bottom: 2px;
+}
+.info {
+  font-size: 24px;
+  margin-bottom: 17px;
+  list-style-type: none;
+}
+.weather-info {
+  list-style-type: none;
+  padding-left: 40px;
+  margin-bottom: 70px;
+}
+.info_forecast_weather {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  height: 300px;
+  margin-right: 1px;
+}
+
+.info_forecast {
+  width: 265px;
+  height: 120px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.date_and_time {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.date_and_time > p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.main_details_about_weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feels_like_and_temperature > p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  line-height: 25px;
+  font-size: 18px;
+}
+.rain {
+  width: 31px;
+  height: 31px;
+}
+.precipitation > p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+}
+#details-page {
+  padding-top: 20px;
+}
